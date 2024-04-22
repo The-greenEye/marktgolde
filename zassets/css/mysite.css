@@ -1,0 +1,684 @@
+body {
+  background: #f7f7f7;
+  /*width: 1200px;*/
+  margin: auto !important;
+
+  padding: 15px !important;
+  font-weight: 400;
+  overflow-x: hidden !important;
+  font-size: 18px;
+  height: 100%;
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 990px;
+  }
+}
+a {
+  text-decoration: none !important;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+h1 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+li,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.x1btn {
+  color: #ffffff;
+  background-color: #d50000;
+  border: 2px solid #1d2b6f;
+  font-size: 17px;
+  padding: 7px 0;
+}
+.x1btn:hover {
+  color: #d50000;
+  background-color: #fff;
+}
+.SubSiteTitle {
+  font-size: 30px;
+  margin-top: 0;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.SubSiteTitle a {
+  text-decoration: none;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .SubSiteTitle {
+    font-size: 50px !important;
+  }
+}
+
+.btn-onkoora-box {
+  color: #5c2d8f;
+  border-color: #5c2d8f;
+  padding: 5px 50px;
+  margin-top: 10px;
+}
+.btn-onkoora-box:hover {
+  color: #fff;
+  background: #5c2d8f;
+  padding: 5px 50px;
+}
+.List-2nd-Level li {
+  display: inline-block;
+  font-size: 17px;
+  padding-inline-start: inherit;
+  padding: 2px 10px;
+  border-radius: 2px;
+  border: 1px solid #5c2d8f;
+}
+.List-2nd-Level a {
+  color: #5c2d8f;
+}
+.TextBox {
+  color: #555;
+  padding: 15px;
+  margin-top: 15px;
+  background: #fff;
+  border-radius: 2px;
+  border: 1px solid #f3f3f3;
+  line-height: 1.8;
+  width: 100%;
+  display: inline-block;
+  float: right;
+  margin-bottom: 0px;
+  position: relative;
+}
+.TextBox h1 {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+.TextBox h2 {
+  font-size: 18px;
+}
+.TextBox h2:first-of-type {
+  font-size: 1.06em;
+  position: relative;
+  margin-bottom: 20px;
+  float: right;
+  width: 100%;
+  margin-top: 0;
+  color: #000;
+  font-weight: 700;
+}
+.TextBox h2:first-of-type span {
+  border-bottom: 1px solid #5c2d8f;
+  padding: 0 0 10px;
+  display: inline-block;
+  position: relative;
+  min-height: 52px;
+  float: right;
+  box-sizing: border-box;
+  line-height: 41px;
+}
+.TextBox h2:first-of-type:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  right: 0;
+  background-color: #ddd;
+}
+/*======= BOOTSTRAP EDIT =======*/
+.table-responsive {
+  floate: right;
+  width: 100%;
+}
+/* Edit On BOOTSTRAP Pagination */
+.pagination > li:last-child > a,
+.pagination > li:last-child > span {
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  margin-right: 0px;
+}
+.pagination > li:first-child > a,
+.pagination > li:first-child > span {
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+}
+.pagination > li > a,
+.pagination > li > span {
+  margin: 0 1px;
+  padding: 6px 9px;
+}
+/*======= Header & PopUp Menu =======*/
+header {
+  width: 100%;
+}
+
+header nav {
+  clear: both;
+  padding-top: 10px;
+  background: #383838;
+}
+header nav .menu {
+  float: right;
+}
+
+header nav .menu li {
+  display: inline;
+  background: #535353;
+  border-radius: 2px;
+  padding: 0px 5px;
+}
+header nav .menu li a {
+  color: #003580;
+  display: inline;
+  font-size: 0.8em;
+  padding: 0 2px;
+}
+header nav .Logo {
+  float: left;
+}
+.Logo {
+  display: inline-block;
+  position: relative;
+}
+header .menu {
+  padding-top: 0px;
+}
+header .menu .PopUpMenuBtn {
+  color: #000000;
+  text-align: center;
+  margin-top: 0px;
+  float: right;
+}
+header .menu .PopUpMenuBtn span {
+  display: inline-block;
+  float: right;
+  font-size: 2em;
+  line-height: 40px;
+  width: 41px;
+  height: 41px;
+  border: 1px solid #fff;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+header .menu .PopUpMenuBtn p {
+  display: inline-block;
+  padding: 0 10px;
+  font-size: 0.9em;
+  margin-top: 12px;
+  float: right;
+}
+.header {
+  background: #1d2b6f;
+}
+.header .NavLogo .logo {
+  margin: 0 auto;
+  display: block;
+  -webkit-transition: all 0.5s esae-in-out;
+  -moz-transition: all 0.5s esae-in-out;
+  -ms-transition: all 0.5s esae-in-out;
+  -o-transition: all 0.5s esae-in-out;
+  transition: all 0.5s esae-in-out;
+  padding: 30px 0;
+  text-align: center;
+  color: #424348;
+  font-size: 30px;
+  font-family: "Tajawal", sans-serif;
+  font-weight: 700;
+}
+
+.header .NavLogo .logo img {
+  width: 100%;
+  height: auto;
+}
+.NavLogo:not(.fixed) .logo img {
+  margin-bottom: 15px;
+}
+img {
+  border: none;
+}
+.medium-modal {
+  width: 500px;
+  background: #fff;
+  padding: 20px 20px 40px;
+  position: relative;
+  margin-right: 22px;
+}
+.medium-modal .close {
+  position: absolute;
+  top: 10px;
+  font-size: 2em;
+  margin: 10px 20px;
+  color: #888;
+  opacity: 0.5 !important;
+  z-index: 50;
+}
+.MenuTitle {
+  display: block;
+  clear: both;
+  padding-bottom: 0px;
+  font-size: 2em;
+  margin-right: 13px;
+  margin-bottom: 15px;
+  color: #003580;
+}
+.MenuItem {
+  display: block;
+  border-radius: 5px;
+  color: #2a334d;
+  text-align: center;
+  padding: 10px 8px;
+  background: #fff;
+  border: 2px solid #0f4e97;
+  margin: 8px 0;
+  font-size: 1em;
+}
+.ActiveItem {
+  border: 2px solid #003580;
+}
+.ActiveItem,
+.MenuItem:hover {
+  background: #003580;
+  color: #fff;
+}
+._2ndNav {
+  height: 200px;
+  background: #1d2b6f;
+}
+.SelectDate {
+  margin: auto;
+}
+/*======= Main Wrapper =======*/
+.MainWrapper {
+  background: #f9f9f9;
+}
+.Mainbox {
+  background: #fff;
+  margin-top: -120px;
+  padding: 20px 25px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+}
+@media (max-width: 767px) {
+  .Mainbox {
+    padding: 20px 10px;
+  }
+}
+.ImportantLeagues h1 {
+  margin: 30px 0;
+  color: #777;
+  display: inline-block;
+  width: 100%;
+}
+.ImportantLeagues .col-md-2 {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.Vertical-Thumb {
+  text-align: center;
+}
+.Vertical-Thumb img {
+  width: 100%;
+  height: 165px !important;
+}
+.Vertical-Thumb h2 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #003580;
+  letter-spacing: -0.9px;
+}
+.Vertical-Thumb hr {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+.Vertical-Thumb .Nextmatch {
+  font-size: 10px;
+  color: #666;
+}
+.Vertical-Thumb .MatchDate {
+  color: #f18800;
+}
+.Vertical-Thumb .TeamName {
+  font-size: 10px;
+  color: #777;
+  letter-spacing: -0.9px;
+}
+.Vertical-Thumb .VS {
+  color: #5c2d8f;
+  background: #eee;
+  padding: 0px 4px;
+  border-radius: 50%;
+  position: relative;
+  top: -4px;
+  opacity: 0.5;
+}
+.ScorersTable img {
+  width: 70px;
+  height: 70px !important;
+  border: unset;
+  border-radius: 50%;
+}
+.ScorersTable .Vertical-Thumb {
+  position: relative;
+  background: #f9f9f9;
+}
+.ScorersTable .Vertical-Thumb .Centr {
+  color: #000;
+  position: absolute;
+  right: 8px;
+  padding: 0 8px;
+  background: #ddd;
+  border-radius: 10px;
+  opacity: 0.8;
+  font-size: 15px;
+  font-weight: 700;
+  min-width: 35px;
+}
+.ScorersTable .Vertical-Thumb .PName {
+  letter-spacing: -0.9px;
+  color: #333;
+}
+.ScorersTable .Vertical-Thumb .TName {
+  color: #ef960c;
+}
+.ScorersTable .Vertical-Thumb .CGouls {
+  font-size: 15px;
+  color: #5c2d8f;
+}
+/*======= Footer =======*/
+footer {
+  padding: 20px;
+  background: #222;
+  color: #fff;
+}
+/*======= Standing Table =======*/
+.standing .table {
+  display: inline-block;
+  width: 100%;
+  float: right;
+}
+.standing .table .ttlRow {
+  display: inline-block;
+  width: 100%;
+  background: #333;
+  float: right;
+  height: 40px;
+  margin-bottom: 0px;
+  border-radius: 3px 3px 0 0;
+}
+
+.standing .table .ttlRow .itemTtl {
+  float: right;
+  padding: 8px 0;
+  color: #fff;
+  font-size: 13px;
+  text-align: center;
+  width: 60px;
+}
+.standing .table .ttlRow .itemTtl:nth-child(2) {
+  width: calc(100% - 600px);
+  text-align: right;
+  padding-right: 10px;
+}
+.standing .table .wRow {
+  display: inline-block;
+  width: 100%;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-bottom: 0;
+  height: 58px;
+  float: right;
+  position: relative;
+}
+
+.standing .table .wRow .item {
+  float: right;
+  color: #b9b9b9;
+  font-size: 18px;
+  text-align: center;
+  line-height: 2;
+  width: 60px;
+  padding: 10px;
+}
+
+.standing .table .wRow .item:nth-child(2) {
+  width: calc(100% - 600px);
+  padding-right: 10px;
+}
+
+.standing .table .wRow .team img {
+  float: right;
+  margin-left: 10px;
+  width: auto;
+  height: 36px;
+}
+.standing .table .wRow .item p {
+  text-align: right;
+  color: #0277bd;
+  font-size: 14px;
+  line-height: 2.8;
+}
+
+.standing .table .wRow .item:nth-child(9) {
+  color: #000;
+  font-weight: 700;
+}
+.standing .table .wRow .item:last-child {
+  text-align: center;
+}
+.standing .table .wRow .item:last-child {
+  width: 120px;
+}
+
+.standing .table .wRow .item:last-child img {
+  float: none;
+  margin-left: 0;
+}
+.standing .table .wRow:last-child {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+@media screen and (min-width: 1280px) {
+  .standing .table .ttlRow .itemTtl {
+    width: 50px;
+  }
+  .standing .table .ttlRow .itemTtl:nth-child(2) {
+    width: calc(100% - 510px);
+  }
+  .standing .table .ttlRow .itemTtl {
+    width: 50px;
+  }
+  .standing .table .ttlRow .itemTtl:last-child {
+    width: 110px;
+  }
+  .standing .table .wRow .item {
+    width: 50px;
+  }
+  .standing .table .wRow .item:nth-child(2) {
+    width: calc(100% - 510px);
+  }
+  .standing .table .wRow .item:last-child {
+    width: 110px;
+  }
+}
+@media screen and (max-width: 1279px) and (min-width: 1152px) {
+  .standing .table .ttlRow .itemTtl {
+    width: 40px;
+    font-size: 12px;
+    line-height: 2.2;
+  }
+  .standing .table .ttlRow .itemTtl:nth-child(2) {
+    width: calc(100% - 420px);
+  }
+  .standing .table .ttlRow .itemTtl:last-child {
+    width: 100px;
+  }
+  .standing .table .wRow .item {
+    width: 40px;
+    font-size: 15px;
+    line-height: 2.6;
+  }
+  .standing .table .wRow .item:nth-child(2) {
+    width: calc(100% - 420px);
+  }
+  .wRow .item {
+    width: 40px;
+    font-size: 15px;
+    line-height: 2.6;
+  }
+  .standing .table .wRow .item:last-child {
+    width: 100px;
+  }
+}
+@media screen and (max-width: 1151px) and (min-width: 1024px) {
+  .standing .table .ttlRow .itemTtl {
+    width: 40px;
+    font-size: 12px;
+    line-height: 2.2;
+  }
+  .standing .table .ttlRow .itemTtl:nth-child(2) {
+    width: calc(100% - 220px);
+  }
+  .standing .table .ttlRow .itemTtl:nth-child(4),
+  .standing .table .ttlRow .itemTtl:nth-child(5),
+  .standing .table .ttlRow .itemTtl:nth-child(6),
+  .standing .table .ttlRow .itemTtl:nth-child(7),
+  .standing .table .ttlRow .itemTtl:nth-child(8) {
+    display: none;
+  }
+  .standing .table .ttlRow .itemTtl:last-child {
+    width: 100px;
+  }
+  .standing .table .wRow .item {
+    width: 40px;
+    font-size: 15px;
+    line-height: 2.6;
+  }
+  .standing .table .wRow .item:nth-child(2) {
+    width: calc(100% - 220px);
+  }
+  .standing .table .wRow .item:nth-child(4),
+  .standing .table .wRow .item:nth-child(5),
+  .standing .table .wRow .item:nth-child(6),
+  .standing .table .wRow .item:nth-child(7),
+  .standing .table .wRow .item:nth-child(8) {
+    display: none;
+  }
+  .standing .table .wRow .item:last-child {
+    width: 100px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .standing .table .ttlRow .itemTtl {
+    width: 40px;
+    font-size: 12px;
+    line-height: 2.2;
+  }
+  .standing .table .wRow .item:nth-child(2) {
+    width: calc(100% - 420px);
+  }
+  .ttlRow .itemTtl:last-child {
+    width: 100px;
+  }
+  .standing .table .wRow .item {
+    width: 40px;
+    font-size: 15px;
+    line-height: 2.6;
+  }
+  .standing .table .wRow .item:nth-child(2) {
+    width: calc(100% - 420px);
+  }
+  .standing .table .wRow .item:last-child {
+    width: 100px;
+  }
+}
+@media screen and (max-width: 767px) and (min-width: 320px) {
+  .standing .table .wRow {
+    height: 50px;
+  }
+  .standing .table .wRow .item {
+    width: 40px;
+    font-size: 14px;
+    line-height: 2.2;
+  }
+  .standing .table .ttlRow .itemTtl {
+    width: 40px;
+    font-size: 12px;
+    line-height: 2.2;
+  }
+  .standing .table .ttlRow .itemTtl:nth-child(2) {
+    width: calc(100% - 90px);
+  }
+  .standing .table .ttlRow .itemTtl:nth-child(3),
+  .standing .table .ttlRow .itemTtl:nth-child(4),
+  .standing .table .ttlRow .itemTtl:nth-child(5),
+  .standing .table .ttlRow .itemTtl:nth-child(6),
+  .standing .table .ttlRow .itemTtl:nth-child(7),
+  .standing .table .ttlRow .itemTtl:nth-child(8) {
+    display: none;
+  }
+  .standing .table .wRow .item:nth-child(2) {
+    width: calc(100% - 90px);
+  }
+  .standing .table .wRow .team img {
+    height: 28px;
+  }
+  .standing .table .wRow .item:nth-child(3),
+  .standing .table .wRow .item:nth-child(4),
+  .standing .table .wRow .item:nth-child(5),
+  .standing .table .wRow .item:nth-child(6),
+  .standing .table .wRow .item:nth-child(7),
+  .standing .table .wRow .item:nth-child(8) {
+    display: none;
+  }
+  .standing .table .wRow .item:last-child {
+    width: 100px;
+    display: none;
+  }
+  .standing .table .wRow .item p {
+    font-size: 12px;
+    line-height: 2.5;
+  }
+}
+/*======= END Standing Table =======*/
+/*======= Media =======*/
+@media (max-width: 1200px) {
+  body {
+    width: 100%;
+  }
+}
+
+@media (max-width: 720px) {
+  header .NavLogo .PopUpMenuBtn p {
+    display: none;
+  }
+  header nav .menu {
+    position: relative;
+  }
+  header .NavLogo .logo {
+    float: left;
+    width: 200px;
+    height: auto;
+  }
+  .PopUpMenu .medium-modal {
+    width: 100%;
+    margin-right: 0;
+  }
+  .x1btn {
+    padding: 10px 5px;
+    font-size: 11px;
+  }
+}
